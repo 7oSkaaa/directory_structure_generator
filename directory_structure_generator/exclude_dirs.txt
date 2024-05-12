@@ -1,0 +1,12 @@
+.git
+.github
+.gitignore
+__pycache__
+pyc
+.DS_Store
+.idea
+.vscode
+.expo
+.venv
+node_modules
+
