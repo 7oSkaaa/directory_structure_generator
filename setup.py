@@ -1,6 +1,5 @@
 from setuptools import setup, find_packages
 
-
 setup(
     name="directory_structure_generator",
     version="1.0.3",
@@ -17,7 +16,9 @@ setup(
         "Operating System :: OS Independent",
     ],
     entry_points={
-        "console_scripts": ["directory_structure_generator=directory_structure_generator.__main__:main"]
+        "console_scripts": [
+            "directory_structure_generator=directory_structure_generator.__main__:main"
+        ]
     },
     python_requires=">=3.6",
     install_requires=["argparse"],

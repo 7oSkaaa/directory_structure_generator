@@ -25,7 +25,9 @@ def main():
         sys.exit(1)
 
     # Generate the folder structure and print it
-    directory_structure_generator(path=path, exclude_dirs=exclude_dirs, language=language, sort=sort)
+    directory_structure_generator(
+        path=path, exclude_dirs=exclude_dirs, language=language, sort=sort
+    )
 
 
 if __name__ == "__main__":

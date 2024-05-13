@@ -56,7 +56,9 @@ def folder_structure(path, exclude_dirs, sort=False):
     return structure
 
 
-def directory_structure_generator(path=None, exclude_dirs=None, language=None, sort=False):
+def directory_structure_generator(
+    path=None, exclude_dirs=None, language=None, sort=False
+):
     # starting the program
     print(f"{Colors.yellow}{Icons.loading} Starting the program...{Colors.reset}")
 
