@@ -101,3 +101,8 @@ This script is used to generate a list of the project structure in a markdown fo
 │   │   └───📄 productService.js
 └───📄 yarn.lock
 ```
+
+## Demo Video:
+
+https://github.com/7oSkaaa/directory_structure_generator/assets/63050133/d96e088c-d631-48a8-8eda-2f0a469d7ed1
+
