@@ -30,8 +30,6 @@ python -m directory_structure_generator --path 'Users/ahmed_hossam/Codes' --lang
 
 ## Output Example
 
-```markdown
-
 ### frontend-training-mp-feb24 folder structure
 
 ```js
@@ -82,7 +80,6 @@ python -m directory_structure_generator --path 'Users/ahmed_hossam/Codes' --lang
 │   │   ├───📄 cartService.js
 │   │   └───📄 productService.js
 └───📄 yarn.lock
-``` 
 ```
 
 ### How to use the script
