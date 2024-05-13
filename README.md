@@ -6,13 +6,6 @@ This script is used to generate a list of the project structure in a markdown fo
 
 ## Usage
 
-### Files
-
-- `directory-structure-generator.py` : Python script to generate the project structure list
-- `README.md` : Markdown file to display the project structure list
-- `Structures.md` : Markdown file to display the project structure list
-- `exclude.txt` : Text file to exclude the files and folders from the project structure list
-
 ### pre-execution
 
 - Update the `exclude.txt` file with the files and folders to exclude from the project structure list
@@ -20,7 +13,7 @@ This script is used to generate a list of the project structure in a markdown fo
 ### Command
 
 ```bash
-python3 directory-structure-generator.py --path <path> --language <language> --sort <sort>
+python -m directory_structure_generator --path <path> --language <language> --sort <sort>
 ```
 
 ### Arguments
@@ -32,10 +25,12 @@ python3 directory-structure-generator.py --path <path> --language <language> --s
 ### Example
 
 ```bash
-python3 directory-structure-generator.py --path backend-python-training-feb-24 --language python --sort True
+python -m directory_structure_generator --path 'Users/ahmed_hossam/Codes' --language 'python' --sort 'True'
 ```
 
-## Output
+## Output Example
+
+```markdown
 
 ### frontend-training-mp-feb24 folder structure
 
@@ -87,6 +82,7 @@ python3 directory-structure-generator.py --path backend-python-training-feb-24 -
 │   │   ├───📄 cartService.js
 │   │   └───📄 productService.js
 └───📄 yarn.lock
+``` 
 ```
 
 ### How to use the script
@@ -105,7 +101,7 @@ python3 directory-structure-generator.py --path backend-python-training-feb-24 -
 1. Clone the repository
 
     ```bash
-    git clone git@github.com:7oSkaaa/directory-structure-generator.git
+    git clone git@github.com:7oSkaaa/directory_structure_generator.git
     ```
 
 2. Navigate to the folder where the script is located

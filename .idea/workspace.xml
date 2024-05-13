@@ -5,23 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b635a1f-35fd-4736-a00c-7c4bdc864f3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/directory_structure_generator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/directory_structure_generator/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/directory_structure_generator/Structures.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/directory_structure_generator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/directory_structure_generator/directory-structure-generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/directory_structure_generator/exclude_dirs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/directory_structure_generator/helpers/colors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/directory_structure_generator/helpers/icons.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/directory_structure_generator/helpers/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/directory_structure_generator/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/directory_structure_generator/generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/directory_structure_generator/icons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/directory_structure_generator/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/directory_structure_generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/directory_structure_generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory_structure_generator.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory_structure_generator.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory_structure_generator.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory_structure_generator.egg-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory_structure_generator.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory_structure_generator.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory_structure_generator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory_structure_generator/Structures.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory_structure_generator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/directory_structure_generator/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory_structure_generator/directory-structure-generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory_structure_generator/helpers/colors.py" beforeDir="false" afterPath="$PROJECT_DIR$/directory_structure_generator/colors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory_structure_generator/helpers/icons.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory_structure_generator/helpers/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/directory_structure_generator/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/directory_structure_generator-1.0.0.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +44,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/directory_structure_generator/run.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2gN6q1GUujxWeppPlzfEDRY4Ckt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,12 +61,53 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Python Console.executor": "Run",
+    "Python.__main__.executor": "Run",
     "Python.directory-structure-generator.executor": "Run",
+    "Python.generator.executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.setup.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/directory_structure_generator" />
+      <recent name="$PROJECT_DIR$/directory_structure_generator/modules" />
+      <recent name="$PROJECT_DIR$/directory_structure_generator/directory_structure_generator" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python Console" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="directory_structure_generator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="/Python Console.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Python Console" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

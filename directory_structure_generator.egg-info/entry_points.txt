@@ -1,2 +1,2 @@
 [console_scripts]
-generate-structure = directory_structure_generator.directory_structure_generator:main
+directory_structure_generator = directory_structure_generator.__main__:main

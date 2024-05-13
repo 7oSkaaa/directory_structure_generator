@@ -1,4 +1,4 @@
-class colors:
+class Colors:
     black = "\033[30m"
     red = "\033[31m"
     green = "\033[32m"
@@ -8,16 +8,20 @@ class colors:
     cyan = "\033[36m"
     white = "\033[37m"
     reset = "\033[0m"
-    
+
     @staticmethod
     def get_color(color):
-        return getattr(colors, color)
-    
+        return getattr(Colors, color)
+
     @staticmethod
     def get_all_colors():
-        return [color for color in dir(colors) if not color.startswith("__") and not callable(getattr(colors, color))]
-    
+        return [
+            color
+            for color in dir(Colors)
+            if not color.startswith("__") and not callable(getattr(Colors, color))
+        ]
+
     @staticmethod
     def print_all_colors():
-        for color in colors.get_all_colors():
-            print(f"{getattr(colors, color)}{color}{colors.reset}")
+        for color in Colors.get_all_colors():
+            print(f"{getattr(Colors, color)}{color}{Colors.reset}")
