@@ -9,7 +9,7 @@ from .utils import get_args
 def main():
     # Get the path to the folder to analyze from the CLI
     try:
-        path, language, sort = get_args()
+        path, exclude_dirs, language, sort = get_args()
 
         # Check if the sort argument is a boolean
         sort = True if sort.lower() == "true" else False
@@ -25,7 +25,7 @@ def main():
         sys.exit(1)
 
     # Generate the folder structure and print it
-    directory_structure_generator(path=path, language=language, sort=sort)
+    directory_structure_generator(path=path, exclude_dirs=exclude_dirs, language=language, sort=sort)
 
 
 if __name__ == "__main__":

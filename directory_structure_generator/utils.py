@@ -66,6 +66,15 @@ def get_args():
         default=os.getcwd(),
         help="The path to the folder to analyze.",
         required=False,
+        type=str,
+    )
+    parser.add_argument(
+        "--exclude_dirs",
+        dest="exclude_dirs",
+        default=[],
+        help="The directories to exclude from the structure separated by spaces.",
+        nargs="+",
+        required=False,
     )
     parser.add_argument(
         "--language",
@@ -73,6 +82,7 @@ def get_args():
         default="plaintext",
         help="The language to use for the folder structure.",
         required=False,
+        type=str,
     )
     parser.add_argument(
         "--sort",
@@ -80,8 +90,12 @@ def get_args():
         default="False",
         help="Sort the directories and files alphabetically.",
         required=False,
+        type=str,
     )
     print(f"{Colors.yellow}{Icons.loading} Parsing the arguments...{Colors.reset}")
     args = parser.parse_args()  # Parse the arguments
 
-    return args.path, args.language, args.sort
+    # make all the directories to exclude lowercase
+    args.exclude_dirs = [d.lower() for d in args.exclude_dirs]
+
+    return args.path, args.exclude_dirs, args.language, args.sort

@@ -20,7 +20,7 @@ def build_structure(path, exclude_dirs, degree, ends, sort=False):
         exit(1)
 
     # Remove the directories to exclude
-    dirs = [d for d in dirs if d not in exclude_dirs]
+    dirs = [d for d in dirs if d.lower() not in exclude_dirs]
 
     # Sort the directories and files alphabetically
     if sort:
@@ -56,19 +56,9 @@ def folder_structure(path, exclude_dirs, sort=False):
     return structure
 
 
-def directory_structure_generator(path=None, language=None, sort=False):
+def directory_structure_generator(path=None, exclude_dirs=None, language=None, sort=False):
     # starting the program
     print(f"{Colors.yellow}{Icons.loading} Starting the program...{Colors.reset}")
-
-    try:
-        # get directory to the path
-        directory = os.path.dirname(os.path.realpath(__file__))
-
-        # Get the directories to exclude
-        exclude_dirs = get_from_file(f"{directory}/exclude_dirs.txt")
-    except FileNotFoundError:
-        print(f"{Colors.red}The file exclude_dirs.txt was not found ❌{Colors.reset}")
-        sys.exit(1)
 
     global structure
 
