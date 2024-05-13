@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b635a1f-35fd-4736-a00c-7c4bdc864f3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/directory_structure_generator/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/directory_structure_generator/generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/directory_structure_generator/icons.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/directory_structure_generator/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/directory_structure_generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/directory_structure_generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory_structure_generator.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory_structure_generator.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory_structure_generator.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory_structure_generator.egg-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory_structure_generator.egg-info/requires.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory_structure_generator.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory_structure_generator/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory_structure_generator/Structures.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory_structure_generator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/directory_structure_generator/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory_structure_generator/directory-structure-generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory_structure_generator/helpers/colors.py" beforeDir="false" afterPath="$PROJECT_DIR$/directory_structure_generator/colors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory_structure_generator/helpers/icons.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory_structure_generator/helpers/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/directory_structure_generator/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/directory_structure_generator-1.0.0.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
