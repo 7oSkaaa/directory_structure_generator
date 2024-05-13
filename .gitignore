@@ -184,3 +184,8 @@ ehthumbs.db
 *.egg
 *.egg/*
 
+
+# pycache
+__pycache__
+__pycache__/*
+
