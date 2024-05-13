@@ -24,14 +24,7 @@ This script is used to generate a list of the project structure in a markdown fo
 ### Command
 
 ***We have two ways to use the script:***
-- **First way:** 
-  - Clone the repository
-  - Change the directory to the repository
-  - Run the script with the required arguments
-      ```bash
-      python -m directory_structure_generator --path <path> --exclude_dirs <dir_1> <dir_2> <dir_3> --language <language> --sort <sort>
-      ```
-- **Second way:**
+- **First way:**
   - Install the package using pip
   - Run the script with the required arguments
     ```bash
@@ -39,6 +32,14 @@ This script is used to generate a list of the project structure in a markdown fo
     from directory_structure_generator import directory_structure_generator
     directory_structure_generator(path=<path>, exclude_dirs=[<dir_1>, <dir_2>, <dir_3>], language=<language>, sort=<sort>)
     ```
+
+- **Second way:** 
+  - Clone the repository
+  - Change the directory to the repository
+  - Run the script with the required arguments
+      ```bash
+      python -m directory_structure_generator --path <path> --exclude_dirs <dir_1> <dir_2> <dir_3> --language <language> --sort <sort>
+      ```
 
 ### Arguments
 
