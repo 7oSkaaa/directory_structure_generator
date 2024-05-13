@@ -4,29 +4,48 @@
 
 This script is used to generate a list of the project structure in a markdown format. It is useful for README.md files.
 
+## Download
+
+- You can simply:
+    ```bash
+    pip install directory-structure-generator 
+    ```
+  
+- Or you can clone the repository:
+
+    ```bash
+    git clone git@github.com:7oSkaaa/directory_structure_generator.git
+    cd directory_structure_generator
+    python -m directory_structure_generator --path <path> --language <language> --sort <sort>
+    ```  
+
 ## Usage
-
-### pre-execution
-
-- Update the `exclude.txt` file with the files and folders to exclude from the project structure list
 
 ### Command
 
-```bash
-python -m directory_structure_generator --path <path> --language <language> --sort <sort>
-```
+***We have two ways to use the script:***
+- **First way:** 
+  - Clone the repository
+  - Change the directory to the repository
+  - Run the script with the required arguments
+      ```bash
+      python -m directory_structure_generator --path <path> --exclude_dirs <dir_1> <dir_2> <dir_3> --language <language> --sort <sort>
+      ```
+- **Second way:**
+  - Install the package using pip
+  - Run the script with the required arguments
+    ```bash
+    python
+    from directory_structure_generator import directory_structure_generator
+    directory_structure_generator(path=<path>, exclude_dirs=[<dir_1>, <dir_2>, <dir_3>], language=<language>, sort=<sort>)
+    ```
 
 ### Arguments
 
 - `--path` : Path to the project folder
+- `--exclude_dirs` : List of directories to exclude from the project structure. Default is `[]`
 - `--language` : Language of the project. Default is `plaintext`
 - `--sort` : Sort the folders and files. Default is `False`
-
-### Example
-
-```bash
-python -m directory_structure_generator --path 'Users/ahmed_hossam/Codes' --language 'python' --sort 'True'
-```
 
 ## Output Example
 
@@ -81,26 +100,3 @@ python -m directory_structure_generator --path 'Users/ahmed_hossam/Codes' --lang
 │   │   └───📄 productService.js
 └───📄 yarn.lock
 ```
-
-### How to use the script
-
-1. Open the terminal
-2. Navigate to the folder where the script is located
-3. Run the script with the required arguments
-4. Copy the output and paste it in the README.md file
-5. Commit the changes
-6. Push the changes to the repository
-7. Check the README.md file in the repository
-8. The project structure will be displayed in the markdown format
-
-### How to get the script
-
-1. Clone the repository
-
-    ```bash
-    git clone git@github.com:7oSkaaa/directory_structure_generator.git
-    ```
-
-2. Navigate to the folder where the script is located
-3. Run the script with the required arguments
-4. Copy the output and paste it in the README.md file
