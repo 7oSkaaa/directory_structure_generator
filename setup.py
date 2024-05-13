@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="directory_structure_generator",
-    version="1.0.3",
+    version="1.0.4",
     author="Ahmed Hossam",
     author_email="ahmed.7oskaa@gmail.com",
     description="This script is used to generate a list of the project structure in a markdown format. It is useful for README.md files.",
